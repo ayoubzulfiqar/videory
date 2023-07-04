@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:videory/src/youtube/screens/youtube.dart';
 
 void main() {
   runApp(const App());
@@ -16,7 +15,7 @@ class App extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.red,
       ),
-      home: const YouTube(),
+      // home: const YouTube(),
     );
   }
 }
